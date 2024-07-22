@@ -38,7 +38,7 @@ class About(Screen):
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
 		AboutText += _("OE Version: (04.4)") + "\n"
 		AboutText += _("Build date: ") + about.getBuildDateString() + "\n"        
-		AboutText += _("Last update: 2024-07-13")  + "\n"
+		AboutText += _("Last update: ") + about.getUpdateDateString() + "\n"
 		AboutText += _("Forum: https://areadeltasat.net") + "\n"
 
 		# [WanWizard] Removed until we find a reliable way to determine the installation date
